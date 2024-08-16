@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 12px;
+}
+
+button {
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    min-width: 10px;
+    min-height: 30px;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    padding: 4px 16px;
+}
+.send {
+    background-color: #44C3E5;
+    margin-bottom: 20px;
+}
+.clean {
+    background-color: rgb(64, 55, 55);
+    position: relative;
+    top: -40px;
+}
+h2 {
+    margin-bottom: 10px;
+    color: #44C3E5;
+}
+label {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.error{
+    color: red;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+}

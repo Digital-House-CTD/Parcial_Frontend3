@@ -1,15 +1,16 @@
 import { useState } from 'react'
-import Card from './components/Card'
-import './App.css'
+import './styles/app.css'
+import Form from './components/Form'
+
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div  className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
+      <h1>Parcial de FrontEnd III</h1>
+      <p>Ponce Maria Elena Haydee</p>
+      <Form />
+      
     </div>
   ) 
 }
